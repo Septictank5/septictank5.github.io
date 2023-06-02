@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Operations</title>
+</head>
+<body>
+    <h1>File Operations</h1>
+    <form>
+        <label for="file-upload">Upload a binary file:</label>
+        <input type="file" id="file-upload" name="file-upload">
+        <br><br>
+        <div id="checkbox-container">
+            <div class="column">              
+            </div>
+            <div class="column">              
+            </div>
+          </div>          
+        <br><br>
+        <label for="download-button">
+            <button type="button" id="download-button" onclick="downloadFile()" download>Download</button>
+        </label>
+    </form>
+    <script src="operations.js"></script>
+</body>
+</html>
